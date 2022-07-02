@@ -1,0 +1,88 @@
+.mint-container {
+  position: relative;
+  /* background-color: aliceblue; */
+  /* margin: 20em 5em; */
+  width: 100%;
+  top: 5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baby Doll", sans-serif;
+  z-index: 5;
+  background-color: var(--darker-back);
+}
+
+.mint-title {
+  /* background-color: aliceblue; */
+  margin-top: 1em;
+  display: block;
+  font-size: 66px;
+  font-weight: 500;
+  animation: goCrazy 2s ease 0s infinite;
+}
+.mint-information {
+  position: relative;
+  /* display: block; */
+  width: 100%;
+}
+.mint-info-card {
+  margin-left: 10%1;
+  width: 20%;
+  height: 300px;
+}
+
+.mint-container-wave {
+  position: absolute;
+  left: 0%;
+  bottom: -30em;
+  /* filter: invert(11%) sepia(48%) saturate(658%) hue-rotate(349deg) brightness(96%) contrast(104%); */
+}
+
+.mint-info-card {
+  width: 15%;
+  height: 7em;
+  line-height: 1em;
+}
+
+.price {
+}
+
+@keyframes goCrazy {
+  0% {
+    color: var(--darker-back);
+    letter-spacing: unset;
+  }
+  10% {
+    color: var(--dark-back);
+    letter-spacing: 10px;
+    right: 10px;
+  }
+  60% {
+    color: var(--darker-back);
+    letter-spacing: unset;
+  }
+  70% {
+    color: #1b0e02;
+  }
+  75% {
+    color: var(--med-hover);
+    letter-spacing: unset;
+  }
+  80% {
+    color: #1b0e02;
+    letter-spacing: 30px;
+  }
+
+  95% {
+    color: var(--dark-back);
+    letter-spacing: unset;
+  }
+  98% {
+    color: var(--med-hover);
+  }
+  100% {
+    color: var(--darker-back);
+  }
+}

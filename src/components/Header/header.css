@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  top: 1vh;
+  height: 10vh;
+  /* background-color: var(--dark-back); */
+  border-radius: 5px;
+  /* box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 9px; */
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+  align-items: center;
+}
+
+.header-icons {
+  position: absolute;
+  width: 17.5%;
+  left: 12.5%;
+}
+
+.header-links {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+}
+
+.mtb-logo-header {
+  width: 200px;
+  left: 0;
+}
+
+button.wallet-button {
+  position: absolute;
+  color: white;
+  border-color: white;
+  right: 44%;
+  background-color: var(--darker-back);
+}
+
+button.wallet-button:hover {
+  color: var(--med-hover);
+  border-color: var(--med-hover);
+}

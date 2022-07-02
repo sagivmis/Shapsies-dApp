@@ -1,0 +1,30 @@
+.reg {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  margin: 0;
+  z-index: 11110;
+  /* -webkit-filter: drop-shadow(5px 5px 5px var(--med-green-link));
+    filter: drop-shadow(5px 5px 5px var(--dark-green-back)); */
+  /* filter: invert(60%); */
+  /* filter: invert(11%) sepia(48%) saturate(658%) hue-rotate(349deg) brightness(96%) contrast(104%); */
+  filter: invert(17%) sepia(91%) saturate(3527%) hue-rotate(190deg)
+    brightness(90%) contrast(101%);
+  transform: scale(2);
+}
+
+.wave {
+  position: absolute;
+  width: 99vw;
+  bottom: 0vh;
+  z-index: 11110;
+  filter: invert(17%) sepia(91%) saturate(3527%) hue-rotate(190deg)
+    brightness(90%) contrast(101%);
+  /* -webkit-filter: drop-shadow(0px 8px 7px var(--dark-green-back));
+    filter: drop-shadow(0px 8px 7px var(--dark-green-back)); */
+}
+
+.reverse {
+  transform: rotate(180deg);
+  bottom: 0;
+}
