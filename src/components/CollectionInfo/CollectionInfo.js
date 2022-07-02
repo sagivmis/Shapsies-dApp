@@ -28,8 +28,8 @@ const CollectionInfo = ({ scrollY, scrollAnimate }) => {
   const nftRef = useRef(null)
   const secondNftRef = useRef(null)
   useEffect(() => {
-    scrollAnimate(nftRef.current, -32, -28, 200, 500, "bottom")
-    scrollAnimate(secondNftRef.current, -38, -20, 300, 500, "bottom")
+    scrollAnimate(nftRef.current, -32, -28, 200, 700, "bottom")
+    scrollAnimate(secondNftRef.current, -38, -24, 300, 500, "bottom")
   }, [scrollY])
 
   return (
